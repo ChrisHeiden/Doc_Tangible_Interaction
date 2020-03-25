@@ -57,5 +57,11 @@ download all of them. If the system asks you if you want to download linked
 libaries, you click "yes, all".
 
 
-## Wiring
+## Wiring 
 ![Image of the wiring](/original_Images/Wirewiring_Soldering/Sketches/Tangible_Interfaces_Project_5.png)
+
+## Process and Images
+The process of the project has been documented with images. These can be found in the folder 'original_Images'.
+
+## Coding
+The executed code can be found in the folder 'Code'.
