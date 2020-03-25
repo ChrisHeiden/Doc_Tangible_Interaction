@@ -145,7 +145,7 @@ void sendDistance(){
   int distance;
   distance = distanceSensor.read(); // in mm
   if (distanceSensor.timeoutOccurred()) { distance = -1; }
-  distance = mapValuesToMIDI( distance, 30, 1000);
+  distance = mapValuesToMIDI( distance, 30, 500);
   //Serial.println(distance);
   midiOut.sendNoteOn(distance, MAXVELUE, channelNumber);  // This is how to send a note
 }
@@ -210,16 +210,22 @@ void loop() {
   
   if(channelNumber != 0)
   {
-    //Serial.println("Hallo2");
-    /********Distance Sensor********/
-    sendDistance();
-
-    //sensors_event_t accel_event;
-    /********Accel Sensor********/
-    //sendAcceleration(accel_event);
-  
-    /********Orientation Sensor********/
-    //sendOrientation(accel_event); 
-    //Serial.println("");
+    if(channelNumber == 1)
+    {    
+      /********Distance Sensor********/
+      sendDistance();
+    }
+    else if(channelNumber == 2)
+    {    
+      /********Accel Sensor********/
+      sensors_event_t accel_event;
+      sendAcceleration(accel_event);
+    }
+    else if(channelNumber == 3)
+    {    
+       /********Orientation Sensor********/
+       sensors_event_t accel_event;
+       sendOrientation(accel_event); 
+    }
   } 
 }
