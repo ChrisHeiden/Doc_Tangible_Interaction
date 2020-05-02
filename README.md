@@ -1,18 +1,5 @@
 # Tangible Interaction Project
-Tokens and constraints are a major part of the wide topic of tangible user interfaces. 
-By touching, pushing or rotating three-dimensional objects, an underlying dataset can 
-be changed, and the system itself reacts to the user input. It provides users with the 
-option not only to use one or two fingers at once. Hands can be used for more precise 
-interaction and can deal with many different shapes and forms; however, people do not 
-use these possibilities by interacting with a common computer or laptop or smartphone, 
-because of the two-dimensional interaction and representation layer. 
-
-The combination and the interaction with tokens and constraints are in focus of the 
-project. Therefore, theoretical approaches to design and build a tangible user 
-interface are explored. Moreover, bodystorming is used to find interaction ideas. 
-With these approaches, a new tangible user interaction system is built and used to 
-create abstract instruments.
-
+Experiencing the creation of music often depends on having a professional music instrument and the knowledge of how to interact with it to create music. Analog music instruments like a guitar can be used to create guitar music. The instrument itself cannot adapt to a situation or the player wants to play different instrumental sounds with a guitar, for example. On the other hand, a digital piano can do so, and can stimulate different instruments; however, the digital piano itself does not change. By using the token and constraints approach of tangible user interfaces, it is possible to change the look and sound of instruments by interacting with them. This has been tried to accomplish in this semester project at the Bauhaus University. Therefore, it deals with different approaches of tangible interaction and how it can be designed theoretically and practically to design an interface that can be used to simulate different sounds and instruments. Users’ advice is used to give the group information about how people use different objects and how they think it should sound by interacting with them.
 
 ## Installation 
 ### ESP8266
